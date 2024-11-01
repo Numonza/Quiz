@@ -208,7 +208,7 @@
                             .sendMessages([
                                 {
                                     type: "flex",
-                                    altText: "ลงทะเบียนสำเร็จ",
+                                    altText: "ส่งคำตอบสำเร็จ",
                                     contents: {
                                          "type": "bubble",
                                               "body": {
@@ -316,7 +316,7 @@
                                                                   },
                                                                   {
                                                                     "type": "text",
-                                                                    "text": "ตำแหน่ง:",
+                                                                    "text": "คำตอบ:",
                                                                     "weight": "bold",
                                                                     "margin": "md",
                                                                     "color": "#000000"
@@ -333,45 +333,7 @@
                                                                   }
                                                                 ],
                                                                 "margin": "md"
-                                                              },
-                                                                                                                              {
-                                                                "type": "box",
-                                                                "layout": "baseline",
-                                                                "contents": [
-                                                                  {
-                                                                    "type": "icon",
-                                                                    "url": "https://img2.pic.in.th/pic/enterprise-1.png",
-                                                                    "offsetStart": "sm"
-                                                                  },
-                                                                  {
-                                                                    "type": "text",
-                                                                    "text": "บริษัท:",
-                                                                    "weight": "bold",
-                                                                    "margin": "md",
-                                                                    "color": "#000000"
-                                                                  },
-                                                                  {
-                                                                    "type": "text",
-                                                                    "text": "" + number3.value,
-                                                                    "size": "md",
-                                                                    "align": "start",
-                                                                    "weight": "bold",
-                                                                    "color": "#990000",
-                                                                    "wrap": true,
-                                                                    "scaling": true
-                                                                  }
-                                                                ],
-                                                                "margin": "md"
-                                                              },
-                                                              {
-                                                                "type": "box",
-                                                                "layout": "baseline",
-                                                                "contents": [
-                                                                  {
-                                                                    "type": "icon",
-                                                                    "url": "https://img2.pic.in.th/pic/locationba8eaa2f694e3d03.png",
-                                                                    "offsetStart": "sm"
-                                                                  },
+                                                              },                                                                                                                   
                                                                   {
                                                                     "type": "text",
                                                                     "text": "โครงการ/โซน:",
@@ -500,9 +462,9 @@
             function validateForm() {
                   var telField = document.getElementById("tel");
                   var number1Field = document.getElementById("number1");
-                  var number2Field = document.getElementById("number2");
+                  //var number2Field = document.getElementById("number2");
                   var number3Field = document.getElementById("number3");
-                  var number4Field = document.getElementById("number4");
+                  //var number4Field = document.getElementById("number4");
                   var number5Field = document.getElementById("number5");
                   var vistoCheckbox = document.getElementById("visto");
                   // Add your validation logic here
